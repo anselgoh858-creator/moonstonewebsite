@@ -4,7 +4,7 @@ import{MapPin,Clock,ArrowUpRight,Menu,X,Camera,Check,ChevronRight,Accessibility,
 import'./styles.css';
 import'./pdf-updates.css';
 
-const trailPins=[{left:57.6,top:74.9},{left:54,top:59.6},{left:58.2,top:22.2},{left:44,top:23.7},{left:58.4,top:49.9}];
+const trailPins=[{left:62.3,top:80.5},{left:60.8,top:67.6},{left:56.1,top:63.7},{left:39.8,top:21.1},{left:47.2,top:45.8}];
 const vendors=[['Dchtoon','C07','Artwork','Playful neighbourhood illustrations and prints.','🎨'],['Ozelsg','C11','Crafts','Small-batch objects made for everyday joy.','🧶'],['Vintagewknd','D03','Vintage','Curated pieces with another story to tell.','👕']];
 const programme={Saturday:[['3:15–3:45','Opening lane walk','Heritage Gate'],['4:00–4:25','Mini batik painting','Heritage Studio'],['5:30–6:00','Onde-onde making','Demo Kitchen'],['7:00–7:40','Neighbourhood stories','Memory Pocket'],['8:15–8:45','Lantern sketch session','Quiet Zone']],Sunday:[['3:30–3:55','Postcard design','Heritage Studio'],['4:30–5:15','Collect the stories tour','Trail Gate'],['5:30–6:00','Traditional games','Parklet Green'],['6:30–7:15','Community mural','Mural Yard'],['8:10–8:40','Acoustic story circle','Quiet Zone']]};
 function Button({children,ghost=false,onClick}:{children:React.ReactNode,ghost?:boolean,onClick?:()=>void}){return <button className={'btn '+(ghost?'ghost':'')} onClick={onClick}>{children}<ArrowUpRight size={17}/></button>}
