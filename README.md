@@ -1,4 +1,4 @@
-# Moonstone PARK Day prototypes
+# Makers of Moonstone prototypes
 
 Run `npm install`, then `npm run dev`. Open `/` for the market and `/ar-trail.html` for the walking trail. Use `npm run build` for production.
 
